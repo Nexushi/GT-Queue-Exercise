@@ -7,13 +7,13 @@ public class QueuePractice {
         // Create a Queue of Strings using a LinkedList
         Queue<String> nameQueue = new LinkedList<>();
 
-        // Add names to the queue
+        // (Enqueue) Add names to the queue
         nameQueue.add("Alice");
         nameQueue.add("Bob");
         nameQueue.add("Charlie");
         nameQueue.add("David");
 
-        // (Enqueue) Print the current queue
+        // Print the current queue
         System.out.println("The queue is: " + nameQueue);
 
         // (Peek) See who is at the front
